@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.set('port', 3002)
+app.set('port', 3000)
 
 //routes
 app.get('/', (req, res)=>{
@@ -13,7 +13,7 @@ app.get('/persona', (req, res)=>{
 })
 
 app.listen(app.get('port'), ()=>{
-    console.log('Aplicacion corriendo en el puerto 3002')
+    console.log('Aplicacion corriendo en el puerto 3000')
 })
 
 
